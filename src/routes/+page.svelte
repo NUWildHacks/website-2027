@@ -9,11 +9,11 @@
 </script>
 
 <Hero />
-<Marquee items={["WildHacks", "Wildcard", "2027"]} />
+<Marquee items={["WildHacks", "2027"]} />
 <About />
 <Divider />
 <Sponsors />
-<Marquee items={["WildHacks", "Wildcard", "2027"]} />
+<Marquee items={["WildHacks", "2027"]} />
 <FAQ />
 <Divider />
 <Footer />

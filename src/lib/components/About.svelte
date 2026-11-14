@@ -19,8 +19,8 @@
     </div>
     <div class="region -title">
       <h2 class="text" use:revealSplitText={{ type: "lines" }}>
-        We're the team behind Northwestern's biggest hackathon &mdash; this winter, get ready to
-        play your wildcard!
+        We're the team behind Northwestern's biggest hackathon &mdash; get ready for an
+        unforgettable experience!
       </h2>
       <div class="button" use:reveal={{ delay: 0.3 }}>
         <LayeredButton href="https://dashboard.wildhacks.net" target="_blank"
@@ -43,15 +43,14 @@
         <div class="copy" use:reveal>
           <p>
             Every spring, hundreds of hackers from across Chicagoland take over campus for a weekend
-            to build and ship incredible projects. For
-            <em>WildHacks: Wildcard</em>, we're planning something a little different:
+            to build and ship incredible projects. This year, we're doing something a little
+            different:
             <strong>one day, 150 spots</strong>.
           </p>
           <p>
             Expect all of the connections, opportunities, and experiences that you know and love
-            from WildHacks. We'll reveal more about what makes
-            <em>Wildcard</em> "wild" when it's time for kickoff &mdash; come ready for anything. Registration
-            is first come, first served.
+            from WildHacks. We'll reveal more about what's in store when it's time for kickoff
+            &mdash; come ready for anything. Registration is first come, first served.
           </p>
         </div>
       </div>

@@ -10,7 +10,7 @@
         <div class="heading">
           <span class="aside" use:reveal>Introducing</span>
           <h1 class="text" use:revealSplitText={{ type: "lines", delay: 0.2 }}>
-            WildHacks:<br />Wildcard
+            WildHacks<br />2027
           </h1>
         </div>
         <div class="subtitle" use:reveal={{ delay: 0.4 }}>

@@ -9,9 +9,8 @@
     <h2 class="heading" use:reveal>Sponsors</h2>
     <div class="copy" use:reveal>
       <p class="text">
-        Thank you to the organizations backing <em>WildHacks: Wildcard</em>. Our sponsors keep this
-        event free and fun for all of our participants. We're still finalizing this year's lineup,
-        so stay tuned.
+        Thank you to the organizations backing WildHacks. Our sponsors keep this event free and fun
+        for all of our participants. We're still finalizing this year's lineup, so stay tuned.
       </p>
       <p class="text">
         <strong>Interested in sponsoring our hackathon?</strong>

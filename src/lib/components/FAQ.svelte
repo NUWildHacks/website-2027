@@ -9,6 +9,16 @@
 
   const faqs = [
     {
+      question: "When does registration close?",
+      answer:
+        "Registration will close on January 3, 2027. You will have until January 8, 2027 to confirm your spot, after which time it will be forfeited to the next person on the waitlist.",
+    },
+    {
+      question: "What happens once we hit the registration cap?",
+      answer:
+        "After the first 150 registrants, newcomers will be placed on a waitlist. You will be notified via email if a slot opens up for you, so keep an eye out!",
+    },
+    {
       question: "Who is eligible to participate?",
       answer: "All students currently enrolled at a university are welcome to register!",
     },
@@ -20,7 +30,7 @@
     {
       question: "What if I've never been to a hackathon before?",
       answer:
-        "WildHacks is open to students of all experience levels. We will have plenty of resources available to guide you throughout the event, including a Discord server for technical help.",
+        "WildHacks is open to students of all experience levels. We will have plenty of resources available to guide you throughout the event, including an online channel to speak with mentors and organizers. Members of our team will also be present throughout the event.",
     },
     {
       question: "How many people can be on a team?",
