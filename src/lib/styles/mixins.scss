@@ -1,0 +1,38 @@
+@use "sass:math";
+
+@mixin pattern-dots($factor: 1) {
+  background-color: var(--clr-accent);
+  background-image:
+    radial-gradient(
+      circle,
+      var(--clr-primary) #{math.div(0.25, $factor)}rem,
+      transparent #{math.div(0.25, $factor)}rem
+    ),
+    radial-gradient(
+      circle,
+      var(--clr-primary) #{math.div(0.25, $factor)}rem,
+      transparent #{math.div(0.25, $factor)}rem
+    ),
+    radial-gradient(
+      circle,
+      var(--clr-primary) #{math.div(0.25, $factor)}rem,
+      transparent #{math.div(0.25, $factor)}rem
+    ),
+    radial-gradient(
+      circle,
+      var(--clr-primary) #{math.div(0.25, $factor)}rem,
+      transparent #{math.div(0.25, $factor)}rem
+    ),
+    radial-gradient(
+      circle,
+      var(--clr-primary) #{math.div(0.25, $factor)}rem,
+      transparent #{math.div(0.25, $factor)}rem
+    );
+  background-size: #{math.div(2.5, $factor)}rem #{math.div(2.5, $factor)}rem;
+  background-position:
+    #{math.div(0.6125, $factor)}rem #{math.div(0.3125, $factor)}rem,
+    #{math.div(1.875, $factor)}rem #{math.div(0.9375, $factor)}rem,
+    #{math.div(3.125, $factor)}rem #{math.div(1.5625, $factor)}rem,
+    #{math.div(1.875, $factor)}rem #{math.div(2.1875, $factor)}rem,
+    #{math.div(0.6125, $factor)}rem #{math.div(2.8125, $factor)}rem;
+}

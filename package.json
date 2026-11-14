@@ -12,20 +12,23 @@
     "build": "vp build",
     "preview": "vp preview",
     "lint": "vp lint",
+    "fmt": "vp format",
     "format": "vp format",
     "prepare": "vp config && svelte-kit sync || echo ''",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
   },
   "dependencies": {
-    "gsap": "^3.15.0"
+    "@lottiefiles/dotlottie-svelte": "^0.11.1",
+    "gsap": "^3.15.1"
   },
   "devDependencies": {
-    "@sveltejs/adapter-static": "^4.0.0",
-    "@sveltejs/kit": "^3.0.0",
-    "@sveltejs/vite-plugin-svelte": "^7.2.0",
-    "svelte": "^5.57.1",
-    "svelte-check": "^4.6.0",
+    "@sveltejs/adapter-static": "^4.0.1",
+    "@sveltejs/kit": "^3.1.1",
+    "@sveltejs/vite-plugin-svelte": "^7.3.1",
+    "sass-embedded": "^1.108.1",
+    "svelte": "^5.57.3",
+    "svelte-check": "^4.7.8",
     "typescript": "^6.0.3",
     "vite": "catalog:",
     "vite-plus": "catalog:"

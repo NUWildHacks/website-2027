@@ -1,0 +1,31 @@
+@use "sass:meta";
+@use "sass:map";
+
+$breakpoints: (
+  "sm": (
+    min-width: 40rem,
+  ),
+  "md": (
+    min-width: 48rem,
+  ),
+  "lg": (
+    min-width: 64rem,
+  ),
+  "xl": (
+    min-width: 80rem,
+  ),
+  "2xl": (
+    min-width: 96rem,
+  ),
+) !default;
+
+@mixin break($breakpoint) {
+  @if map.has-key($breakpoints, $breakpoint) {
+    @media #{meta.inspect(map.get($breakpoints, $breakpoint))} {
+      @content;
+    }
+  } @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. " +
+      "Available breakpoints are: #{map.keys($breakpoints)}.";
+  }
+}

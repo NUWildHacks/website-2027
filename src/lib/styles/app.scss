@@ -1,0 +1,31 @@
+@use "fonts";
+@use "preflight";
+
+:root {
+  --clr-primary: #8e5475;
+  --clr-background: #f3ecd3;
+  --clr-black: #3d2d0d;
+  --clr-accent: #ffd121;
+  --clr-accent-secondary: #82aaac;
+  --clr-accent-tertiary: #fe6935;
+
+  --font-sans: "Schibsted Grotesk", sans-serif;
+  --font-display: "TAYBilly", sans-serif;
+  --font-cursive: "Playwrite NO", serif;
+
+  --border-medium: 0.1875rem solid var(--clr-black);
+  --border-thick: 0.25rem solid var(--clr-black);
+
+  --text-copy: clamp(1rem, calc(0.934rem + 0.329vw), 1.25rem);
+  --max-w-copy: 50ch;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+
+  background-color: var(--clr-accent-secondary);
+}
