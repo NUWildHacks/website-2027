@@ -35,7 +35,7 @@
       background-color: var(--clr-primary);
       color: var(--clr-background);
       height: 2.5rem;
-      border-radius: 9999px;
+      border-radius: var(--rounding-max);
       padding: 0 1.5rem;
       text-decoration: none;
       font-size: 1rem;
@@ -59,7 +59,7 @@
       inset: 0;
       transform: translate(0.5rem, 0.625rem);
       border: var(--border-medium);
-      border-radius: 9999px;
+      border-radius: var(--rounding-max);
       z-index: 0;
       transition: all 0.3s ease;
 

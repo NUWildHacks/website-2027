@@ -156,7 +156,7 @@
             padding: 0.1875rem 0.75rem;
 
             background-color: var(--clr-primary);
-            border-radius: 2rem;
+            border-radius: var(--rounding-max);
 
             @include _.break("md") {
               gap: 0.75rem;

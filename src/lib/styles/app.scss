@@ -16,6 +16,8 @@
   --border-medium: 0.1875rem solid var(--clr-black);
   --border-thick: 0.25rem solid var(--clr-black);
 
+  --rounding-max: 9999px;
+
   --text-copy: clamp(1rem, calc(0.934rem + 0.329vw), 1.25rem);
   --max-w-copy: 50ch;
 }

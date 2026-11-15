@@ -216,7 +216,7 @@
           background: none;
           cursor: pointer;
           text-decoration: none;
-          border-radius: 50rem;
+          border-radius: var(--rounding-max);
           padding: 0.625rem 1.25rem;
           border: 0.125rem solid var(--clr-background);
           color: var(--clr-background);
