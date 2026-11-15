@@ -5,12 +5,10 @@
   import type { LayoutProps } from "./$types";
   import Navigation from "#lib/components/Navigation.svelte";
   import NoiseOverlay from "#lib/components/NoiseOverlay.svelte";
-  import { SplitText } from "gsap/SplitText";
-  import { ScrollTrigger } from "gsap/ScrollTrigger";
-  import { ScrollSmoother } from "gsap/ScrollSmoother";
   import gsap from "gsap";
   import Fire from "#lib/components/Fire.svelte";
   import { onMount } from "svelte";
+  import { ScrollSmoother, ScrollTrigger, SplitText } from "gsap/all";
 
   let { children }: LayoutProps = $props();
 

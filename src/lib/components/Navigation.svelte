@@ -1,10 +1,9 @@
 <script lang="ts">
-  import { ScrollTrigger } from "gsap/ScrollTrigger";
+  import { ScrollTrigger, ScrollSmoother } from "gsap/all";
   import SocialMediaIcon from "./svg/SocialMediaIcon.svelte";
   import gsap from "gsap";
   import { onMount } from "svelte";
   import lettermark from "#lib/assets/wh-lettermark-card.svg";
-  import { ScrollSmoother } from "gsap/ScrollSmoother";
 
   let nav: HTMLElement | null = $state(null);
 

@@ -1,5 +1,6 @@
 allowBuilds:
   "@parcel/watcher": true
+  esbuild: false
 catalog:
   vite: npm:@voidzero-dev/vite-plus-core@1.2.0
   vite-plus: 1.2.0
