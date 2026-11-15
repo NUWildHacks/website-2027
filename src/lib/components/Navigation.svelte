@@ -181,11 +181,11 @@
       }
 
       @include _.break("xl") {
-        gap: 0.625;
+        gap: 0.625rem;
       }
 
       @include _.break("2xl") {
-        gap: 0.75;
+        gap: 0.75rem;
         padding: 0.75rem 1.25rem;
       }
 
@@ -194,7 +194,7 @@
 
         @include _.break("lg") {
           display: flex;
-          gap: 0.75;
+          gap: 0.75rem;
           padding: 0.75rem 1.25rem;
         }
       }
