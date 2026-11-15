@@ -2,6 +2,8 @@
   import { DotLottieSvelte } from "@lottiefiles/dotlottie-svelte";
   import gsap from "gsap";
 
+  const OFFSET = 36;
+
   let fire: HTMLDivElement | null = $state(null);
   let mask: HTMLDivElement | null = $state(null);
 
@@ -33,8 +35,8 @@
   });
 
   function handleMove(e: MouseEvent) {
-    lastX = e.clientX;
-    lastY = e.clientY;
+    lastX = e.clientX + OFFSET;
+    lastY = e.clientY + OFFSET;
 
     fireX?.(lastX);
     fireY?.(lastY);
