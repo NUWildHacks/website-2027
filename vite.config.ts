@@ -7,6 +7,9 @@ export default defineConfig({
   staged: {
     "*": "vp check --fix",
   },
+  ssr: {
+    noExternal: ["gsap"],
+  },
   fmt: {
     svelte: true,
   },
