@@ -1,6 +1,5 @@
 <script lang="ts">
   import gsap from "gsap";
-  import { onMount } from "svelte";
   import ContentSection from "./ContentSection.svelte";
   import { reveal } from "#lib/actions/reveal.ts";
 
@@ -11,7 +10,7 @@
     {
       question: "When does registration close?",
       answer:
-        "Registration will close on January 3, 2027. You will have until January 8, 2027 to confirm your spot, after which time it will be forfeited to the next person on the waitlist.",
+        "Registration will close on January 3, 2027 at 11:59 p.m. CT. You will have until January 8, 2027 to confirm your spot, after which time it will be forfeited to the next person on the waitlist.",
     },
     {
       question: "What happens once we hit the registration cap?",
@@ -20,7 +19,7 @@
     },
     {
       question: "Who is eligible to participate?",
-      answer: "All students currently enrolled at a university are welcome to register!",
+      answer: "All college and university students 18 or older are welcome to register!",
     },
     {
       question: "Will WildHacks be in-person or virtual?",
@@ -30,7 +29,7 @@
     {
       question: "What if I've never been to a hackathon before?",
       answer:
-        "WildHacks is open to students of all experience levels. We will have plenty of resources available to guide you throughout the event, including an online channel to speak with mentors and organizers. Members of our team will also be present throughout the event.",
+        "WildHacks is open to students of all experience levels. We will have plenty of resources available to guide you throughout the event, including an online channel to speak with organizers. Members of our team will also be present throughout the event.",
     },
     {
       question: "How many people can be on a team?",
@@ -44,12 +43,12 @@
     },
     {
       question: "I have a team already. Can my friend register for the entire team?",
-      answer: "NO. All members of your team must independently register.",
+      answer: "No. All members of your team must independently register.",
     },
     {
       question: "What can I build?",
       answer:
-        "At the start of the event, we'll announce themes and guidelines which all projects are required to follow. This is to ensure that all submissions are developed during the hackathon.",
+        "We'll reveal the theme and project guidelines at kickoff. You may not submit a project which you have worked on prior to the event; we will be checking your submission's commit history.",
     },
     {
       question: "Will transportation be reimbursed?",

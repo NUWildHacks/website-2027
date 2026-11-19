@@ -19,8 +19,8 @@
     </div>
     <div class="region -title">
       <h2 class="text" use:revealSplitText={{ type: "lines" }}>
-        We're the team behind Northwestern's biggest hackathon &mdash; get ready for an
-        unforgettable experience!
+        Northwestern's biggest hackathon is back &mdash; get ready for an unforgettable experience
+        this January!
       </h2>
       <div class="button" use:reveal={{ delay: 0.3 }}>
         <LayeredButton href="https://dashboard.wildhacks.net" target="_blank"
@@ -42,7 +42,7 @@
         <h3 class="heading" use:reveal>What's new in 2027?</h3>
         <div class="copy" use:reveal>
           <p>
-            Every spring, hundreds of hackers from across Chicagoland take over campus for a weekend
+            Every spring, hundreds of hackers from across the country take over campus for a weekend
             to build and ship incredible projects. This year, we're doing something a little
             different:
             <strong>one day, 150 spots</strong>.
@@ -50,7 +50,8 @@
           <p>
             Expect all of the connections, opportunities, and experiences that you know and love
             from WildHacks. We'll reveal more about what's in store when it's time for kickoff
-            &mdash; come ready for anything. Registration is first come, first served.
+            &mdash; come ready for anything. Registration is first come, first served. Our
+            full-sized hackathon returns Fall 2027.
           </p>
         </div>
       </div>
@@ -62,8 +63,8 @@
         <p class="copy" use:reveal>
           Never been to a hackathon before? We've got you covered. Whether you're a seasoned pro or
           learning to code for the first time, WildHacks is committed to supporting your journey in
-          tech. We'll help you find a team, connect with mentors, and ship something you're proud
-          of.
+          tech. We'll help you find a team, connect with other hackers, and ship something you're
+          proud of.
         </p>
       </div>
       <div class="image-card -flipped" use:spread>
