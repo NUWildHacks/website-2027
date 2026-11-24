@@ -35,15 +35,21 @@
   @use "../styles/breakpoints" as _;
 
   %container-mask {
-    -webkit-mask:
-      radial-gradient(circle 2rem at top left, #0000 98%, #000) top left,
-      radial-gradient(circle 2rem at top right, #0000 98%, #000) top right;
+    // Longhands instead of the `mask` shorthand for Firefox compatibility.
+    $images:
+      radial-gradient(circle 2rem at 0% 0%, #0000 98%, #000),
+      radial-gradient(circle 2rem at 100% 0%, #0000 98%, #000);
+    $positions:
+      0% 0%,
+      100% 0%;
+
+    -webkit-mask-image: $images;
+    -webkit-mask-position: $positions;
     -webkit-mask-size: 51% 100%;
     -webkit-mask-repeat: no-repeat;
 
-    mask:
-      radial-gradient(circle 2rem at top left, #0000 98%, #000) top left,
-      radial-gradient(circle 2rem at top right, #0000 98%, #000) top right;
+    mask-image: $images;
+    mask-position: $positions;
     mask-size: 51% 100%;
     mask-repeat: no-repeat;
   }

@@ -83,15 +83,22 @@
   @use "../styles/breakpoints" as _;
 
   %list-mask {
-    -webkit-mask:
-      radial-gradient(circle 0.5rem at center left, #0000 98%, #000) center left -0.1875rem,
-      radial-gradient(circle 0.5rem at center right, #0000 98%, #000) center right -0.1875rem;
+    // Longhands with 2-value positions only: Firefox rejects 3-value
+    // positions (e.g. `center left -0.1875rem`) in masks, dropping the rule.
+    $images:
+      radial-gradient(circle 0.5rem at 0% 50%, #0000 98%, #000),
+      radial-gradient(circle 0.5rem at 100% 50%, #0000 98%, #000);
+    $positions:
+      -0.1875rem 50%,
+      calc(100% + 0.1875rem) 50%;
+
+    -webkit-mask-image: $images;
+    -webkit-mask-position: $positions;
     -webkit-mask-size: 52% 100%;
     -webkit-mask-repeat: no-repeat;
 
-    mask:
-      radial-gradient(circle 0.5rem at center left, #0000 98%, #000) center left -0.1875rem,
-      radial-gradient(circle 0.5rem at center right, #0000 98%, #000) center right -0.1875rem;
+    mask-image: $images;
+    mask-position: $positions;
     mask-size: 52% 100%;
     mask-repeat: no-repeat;
   }
